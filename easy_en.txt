@@ -1,0 +1,10 @@
+# Rime table
+#@/db_name	easy_en
+#@/db_type	tabledb
+#@/rime_version	1.7.3
+#@/tick	5
+AA	aa	1
+candidate	candidate	1
+padding	padding	1
+SP	sp	1
+vw	vw	1

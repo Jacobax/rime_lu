@@ -1,0 +1,19 @@
+patch:
+  # 增加转换
+  'switches/@before 3':
+    name: traditional_chinese
+    reset: 0
+    states: [ 简体, 繁体 ]
+
+  #######配置engine
+  'engine/filters/@before 0':
+    simplifier
+
+  # 支持简繁转换
+  simplifier:
+    option_name: traditional_chinese
+    opencc_config: s2t.json
+
+  #标点及特殊表情
+  'punctuator/import_preset': symbols
+  'recognizer/patterns/punct': "^/([a-z]+|[0-9])$"

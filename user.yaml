@@ -1,0 +1,19 @@
+var:
+  last_build_time: 1661133496
+  option:
+    ascii_mode: false
+    ascii_punct: false
+    full_shape: false
+    simplification: true
+  previously_selected_schema: onitiger
+  schema_access_time:
+    clover: 1651218177
+    clover_jiugong: 1650852306
+    double_pinyin_flypy: 1651226659
+    flypy: 1656650513
+    luna_pinyin: 1650261754
+    nill: 1656823938
+    onitiger: 1656823943
+    pinyin_simp: 1654699601
+    tigress: 1655432076
+    xhup: 1655805052

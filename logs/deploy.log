@@ -1,0 +1,843 @@
+--------- beginning of main
+[ 08-22 09:58:15.332 26981:26981 I/BufferQueueConsumer ]
+[](id:69650000002a,api:0,p:-1,c:26981) connect: controlledByApp=false
+
+[ 08-22 09:58:15.333 26981:26981 I/BLASTBufferQueue ]
+[ViewRootImpl[Pref]#42] constructor()
+
+[ 08-22 09:58:15.334 26981:27024 I/BufferQueueProducer ]
+[ViewRootImpl[Pref]#42(BLAST Consumer)42](id:69650000002a,api:1,p:26981,c:26981) connect: api=1 producerControlledByApp=true
+
+[ 08-22 09:58:15.341 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.347 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.357 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.359 26981:26981 D/DecorView[] ]
+onWindowFocusChanged hasWindowFocus true
+
+[ 08-22 09:58:15.374 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.376 26981:27021 E/BLASTBufferQueue ]
+[ViewRootImpl[Pref]#42](f:0,a:4) isEGL=1, mPendingRelease.size()=1, mMaxAcquiredBuffers=4, currentMaxAcquiredBufferCount=2
+
+[ 08-22 09:58:15.390 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.392 26981:27021 E/BLASTBufferQueue ]
+[ViewRootImpl[Pref]#42](f:0,a:5) isEGL=1, mPendingRelease.size()=2, mMaxAcquiredBuffers=4, currentMaxAcquiredBufferCount=2
+
+[ 08-22 09:58:15.406 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.423 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.439 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.456 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.472 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.489 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.505 26981:27021 I/BLASTBufferQueue ]
+releaseBufferCallbackThunk bufferId:115882512613656 framenumber:13 blastBufferQueue is dead
+
+[ 08-22 09:58:15.506 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.522 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.539 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.555 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.571 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.588 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.604 26981:26998 I/Rime-JNI ]
+finalize...
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+java.lang.RuntimeException: full_check true
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at com.osfans.trime.Rime.get(Unknown Source:24)
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at com.osfans.trime.Function.deploy(Unknown Source:4)
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at com.osfans.trime.Pref$TrimePreferenceFragment$9.a(Unknown Source:14)
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at com.osfans.trime.Pref$TrimePreferenceFragment$9.doInBackground(Unknown Source:2)
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+
+[ 08-22 09:58:15.605 26981:26998 W/System.err ]
+	at java.lang.Thread.run(Thread.java:920)
+
+[ 08-22 09:58:15.605 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/core_module.cc:20 registering core components.
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: config_builder
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: config
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: schema
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: user_config
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/dict_module.cc:25 registering components from module 'dict'.
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: tabledb
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: stabledb
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: plain_userdb
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: userdb
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: corrector
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: dictionary
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_dictionary
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: user_dictionary
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: userdb_recovery_task
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/gears_module.cc:43 registering components from module 'gears'.
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: ascii_composer
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: chord_composer
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: express_editor
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: fluid_editor
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: fluency_editor
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: key_binder
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: navigator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: punctuator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: recognizer
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: selector
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: speller
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: shape_processor
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: abc_segmentor
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: affix_segmentor
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: ascii_segmentor
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: matcher
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: punct_segmentor
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: fallback_segmentor
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: echo_translator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: punct_translator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: table_translator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: script_translator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: r10n_translator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_translator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: schema_list_translator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: switch_translator
+
+
+[ 08-22 09:58:15.612 26981:26998 I/native   ]
+I/registry.cc:14 registering component: codepoint_translator
+
+
+[ 08-22 09:58:15.613 26981:26998 I/native   ]
+I/registry.cc:14 registering component: history_translator
+
+
+[ 08-22 09:58:15.613 26981:26998 I/native   ]
+I/registry.cc:14 registering component: simplifier
+
+
+[ 08-22 09:58:15.613 26981:26998 I/native   ]
+I/registry.cc:14 registering component: uniquifier
+
+
+[ 08-22 09:58:15.613 26981:26998 I/native   ]
+I/registry.cc:14 registering component: charset_filter
+
+
+[ 08-22 09:58:15.613 26981:26998 I/native   ]
+I/registry.cc:14 registering component: cjk_minifier
+
+
+[ 08-22 09:58:15.613 26981:26998 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_filter
+
+
+[ 08-22 09:58:15.613 26981:26998 I/native   ]
+I/registry.cc:14 registering component: single_char_filter
+
+
+[ 08-22 09:58:15.613 26981:26998 I/native   ]
+I/registry.cc:14 registering component: shape_formatter
+
+
+[ 08-22 09:58:15.613 26981:26998 I/native   ]
+I/modules.cc:39 registering components from module 'lua'.
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: lua_translator
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: lua_filter
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: lua_segmentor
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: lua_processor
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/grammar_module.cc:14 registering components from module 'grammar'.
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: grammar
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/levers_module.cc:23 registering components from module 'levers'.
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: detect_modifications
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: installation_update
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: workspace_update
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: schema_update
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: config_file_update
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: prebuild_all_schemas
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: user_dict_upgrade
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: cleanup_trash
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: user_dict_sync
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: backup_config_files
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/registry.cc:14 registering component: clean_old_log_files
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/deployment_tasks.cc:80 updating rime installation info.
+
+
+[ 08-22 09:58:15.616 26981:26998 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/installation.yaml'.
+
+
+[ 08-22 09:58:15.618 26981:26998 I/native   ]
+I/deployment_tasks.cc:98 installation info exists. installation id: 256f5250-73b8-45b4-b64f-ebdd93c91011
+
+
+[ 08-22 09:58:15.618 26981:26998 I/native   ]
+I/deployment_tasks.cc:106 sync dir: /sdcard/android/rime/sync
+
+
+[ 08-22 09:58:15.618 26981:26998 I/native   ]
+I/deployment_tasks.cc:114 previous Rime version: 1.5.3
+
+
+[ 08-22 09:58:15.618 26981:26998 I/native   ]
+I/deployer.cc:114 starting work thread for 3 tasks.
+
+
+[ 08-22 09:58:15.618 26981:27866 I/native   ]
+I/deployer.cc:83 running deployment tasks:
+
+
+[ 08-22 09:58:15.618 26981:27866 I/native   ]
+I/deployment_tasks.cc:160 updating workspace.
+
+
+[ 08-22 09:58:15.618 26981:27866 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/default.yaml'.
+
+
+[ 08-22 09:58:15.621 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.622 26981:27866 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/default.yaml'.
+
+
+[ 08-22 09:58:15.625 26981:27866 I/native   ]
+I/deployment_tasks.cc:183 updating schemas.
+
+
+[ 08-22 09:58:15.625 26981:27866 I/native   ]
+I/deployment_tasks.cc:193 schema: xiaolu_he_shuangpin_he_xing
+
+
+[ 08-22 09:58:15.626 26981:27866 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/xiaolu_he_shuangpin_he_xing.schema.yaml'.
+
+
+[ 08-22 09:58:15.628 26981:27866 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.schema.yaml'.
+
+
+[ 08-22 09:58:15.638 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.653 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.659 26981:27866 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.schema.yaml'.
+
+
+[ 08-22 09:58:15.671 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.683 26981:27866 I/native   ]
+I/deployment_tasks.cc:358 preparing dictionary 'xiaolu_he_shuangpin_he_xing'.
+
+
+[ 08-22 09:58:15.683 26981:27866 I/native   ]
+I/dict_compiler.cc:41 compiling dictionary for /sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.schema.yaml
+
+
+[ 08-22 09:58:15.686 26981:27866 I/native   ]
+I/dict_compiler.cc:56 dict name: xiaolu_he_shuangpin_he_xing
+
+
+[ 08-22 09:58:15.686 26981:27866 I/native   ]
+I/dict_compiler.cc:57 dict version: 20220815.163317
+
+
+[ 08-22 09:58:15.687 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.703 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.720 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.738 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.752 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.769 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.785 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.802 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.819 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.835 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.852 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.868 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.884 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.901 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.917 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.933 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.951 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.963 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.966 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.980 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.983 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:15.996 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.000 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.007 26981:27866 I/native   ]
+I/table.cc:299 loading table file: /sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.table.bin
+
+
+[ 08-22 09:58:16.008 26981:27866 I/native   ]
+I/prism.cc:77 loading prism file: /sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.prism.bin
+
+
+[ 08-22 09:58:16.010 26981:27866 I/native   ]
+I/prism.cc:107 found double array image of size 3187456.
+
+
+[ 08-22 09:58:16.010 26981:27866 I/native   ]
+I/dict_compiler.cc:109 /sdcard/android/rime/xiaolu_he_shuangpin_he_xing.dict.yaml[1 file(s)] (3258499120)
+
+
+[ 08-22 09:58:16.010 26981:27866 I/native   ]
+I/dict_compiler.cc:111 /sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.schema.yaml (3043667333)
+
+
+[ 08-22 09:58:16.010 26981:27866 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.reverse.bin
+
+
+[ 08-22 09:58:16.011 26981:27866 I/native   ]
+I/deployment_tasks.cc:376 dictionary 'xiaolu_he_shuangpin_he_xing' is ready.
+
+
+[ 08-22 09:58:16.012 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.013 26981:27866 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.schema.yaml'.
+
+
+[ 08-22 09:58:16.016 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.029 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.033 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.035 26981:27866 I/native   ]
+I/deployment_tasks.cc:241 finished updating schemas: 1 success, 0 failure.
+
+
+[ 08-22 09:58:16.036 26981:27866 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/user.yaml'.
+
+
+[ 08-22 09:58:16.037 26981:27866 I/native   ]
+I/config_data.cc:199 write: var/last_build_time
+
+
+[ 08-22 09:58:16.037 26981:27866 I/native   ]
+I/config_data.cc:85 saving config file '/sdcard/android/rime/user.yaml'.
+
+
+[ 08-22 09:58:16.040 26981:27866 I/native   ]
+I/deployment_tasks.cc:591 clean up trash.
+
+
+[ 08-22 09:58:16.045 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.049 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.049 26981:27866 I/native   ]
+I/deployer.cc:95 3 tasks ran: 3 success, 0 failure.
+
+
+[ 08-22 09:58:16.049 26981:26998 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/default.yaml'.
+
+
+[ 08-22 09:58:16.057 26981:26998 I/native   ]
+I/engine.cc:71 starting engine.
+
+
+[ 08-22 09:58:16.057 26981:26998 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/user.yaml'.
+
+
+[ 08-22 09:58:16.062 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.062 26981:26998 I/native   ]
+I/engine.cc:126 updated option: ascii_punct
+
+
+[ 08-22 09:58:16.062 26981:26998 I/native   ]
+I/engine.cc:126 updated option: full_shape
+
+
+[ 08-22 09:58:16.062 26981:26998 I/native   ]
+I/engine.cc:126 updated option: simplification
+
+
+[ 08-22 09:58:16.063 26981:26998 I/native   ]
+I/config_data.cc:65 loading config file '/sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.schema.yaml'.
+
+
+[ 08-22 09:58:16.066 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.078 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.082 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.095 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.099 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.105 26981:26998 I/native   ]
+I/engine.cc:126 updated option: _auto_commit
+
+
+[ 08-22 09:58:16.106 26981:26998 I/native   ]
+I/dictionary.cc:261 loading dictionary 'xiaolu_he_shuangpin_he_xing'.
+
+
+[ 08-22 09:58:16.106 26981:26998 I/native   ]
+I/table.cc:299 loading table file: /sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.table.bin
+
+
+[ 08-22 09:58:16.108 26981:26998 I/native   ]
+I/prism.cc:77 loading prism file: /sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.prism.bin
+
+
+[ 08-22 09:58:16.109 26981:26998 I/native   ]
+I/prism.cc:107 found double array image of size 3187456.
+
+
+[ 08-22 09:58:16.112 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.115 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.128 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.132 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.145 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.149 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.161 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.165 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.177 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.182 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.194 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.197 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.210 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.214 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.227 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.231 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.247 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.263 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.280 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.295 26981:26998 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /sdcard/android/rime/build/xiaolu_he_shuangpin_he_xing.reverse.bin
+
+
+[ 08-22 09:58:16.297 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.298 26981:26998 I/native   ]
+I/dictionary.cc:261 loading dictionary 'easy_en'.
+
+
+[ 08-22 09:58:16.298 26981:26998 I/native   ]
+I/table.cc:299 loading table file: /sdcard/android/rime/build/easy_en.table.bin
+
+
+[ 08-22 09:58:16.300 26981:26998 I/native   ]
+I/prism.cc:77 loading prism file: /sdcard/android/rime/build/easy_en.prism.bin
+
+
+[ 08-22 09:58:16.301 26981:26998 I/native   ]
+I/prism.cc:107 found double array image of size 1580032.
+
+
+[ 08-22 09:58:16.301 26981:26998 I/native   ]
+I/tsv.cc:17 reading tsv file: /sdcard/android/rime/easy_en.txt
+
+
+[ 08-22 09:58:16.302 26981:26998 I/native   ]
+I/engine.cc:126 updated option: ascii_mode
+
+
+[ 08-22 09:58:16.302 26981:26998 I/native   ]
+I/engine.cc:126 updated option: traditional_chinese
+
+
+[ 08-22 09:58:16.303 26981:26998 I/native   ]
+I/config_data.cc:199 write: var/option/simplification
+
+
+[ 08-22 09:58:16.303 26981:26998 I/native   ]
+I/engine.cc:126 updated option: simplification
+
+
+[ 08-22 09:58:16.303 26981:26998 I/Rime     ]
+message: [option] simplification
+
+[ 08-22 09:58:16.303 26981:26998 W/rime     ]
+full_check: 
+
+[ 08-22 09:58:16.303 26981:26998 I/Pref     ]
+Deploy: end
+
+[ 08-22 09:58:16.313 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.312 27867:27867 W/logcat   ]
+type=1400 audit(0.0:968847): avc: denied { search } for name="mm" dev="sysfs" ino=7033 scontext=u:r:untrusted_app_27:s0:c232,c257,c512,c768 tcontext=u:object_r:sysfs_mm:s0 tclass=dir permissive=0 app=com.osfans.trime.accessibility
+
+[ 08-22 09:58:16.329 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.346 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.362 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.379 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.395 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.411 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.428 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.446 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.464 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.480 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.495 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.514 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+
+[ 08-22 09:58:16.530 26981:27024 I/libPerfCtl ]
+fbcNotifySwapBuffers ret=0
+

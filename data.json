@@ -1,0 +1,67 @@
+{
+    "key": {
+        ".default": {
+            "k": 2,
+            "o": 2
+        },
+        "xiaolu_he_shuangpin_he_xing": {
+            "k": 1,
+            "o": 2,
+            "Space": 21,
+            "s": 2,
+            "p": 1,
+            "x": 5,
+            "n": 5,
+            "l": 1,
+            "u": 13,
+            "BackSpace": 49,
+            "c": 6,
+            "e": 4,
+            "i": 7,
+            "b": 3,
+            "m": 1,
+            "g": 3,
+            "r": 4,
+            "h": 5,
+            "f": 6,
+            "a": 1,
+            "v": 4,
+            "j": 7,
+            "w": 11,
+            "PageDown": 1,
+            "d": 3,
+            "t": 3,
+            "z": 2
+        }
+    },
+    "input": {
+        ".default": {},
+        "xiaolu_he_shuangpin_he_xing": {
+            "2": 7,
+            "7": 1,
+            "4": 4,
+            "1": 8,
+            "3": 4
+        }
+    },
+    "text": {
+        ".default": {},
+        "xiaolu_he_shuangpin_he_xing": {
+            "1": 26,
+            "2": 6,
+            "9": 3,
+            "4": 3,
+            "7": 1
+        }
+    },
+    "schema": {
+        ".default": {
+            "name": ".default",
+            "time": 7384
+        },
+        "xiaolu_he_shuangpin_he_xing": {
+            "name": "小鹭音形系列·小鹤双拼+小鹤双形",
+            "time": 601572
+        }
+    }
+}
